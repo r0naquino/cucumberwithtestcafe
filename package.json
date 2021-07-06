@@ -1,0 +1,21 @@
+{
+  "name": "CucumberWithTestCafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.0",
+    "gherkin-testcafe": "^5.0.1",
+    "testcafe": "^1.14.2",
+    "testcafe-cucumber-steps": "^1.20.0"
+  },
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0"
+  }
+}
