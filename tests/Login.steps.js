@@ -1,5 +1,4 @@
-import { Given } from '@cucumber/cucumber';
-import { When, Then } from 'cucumber';
+import { Given, When, Then } from '@cucumber/cucumber';
 import { Selector, t } from 'testcafe';
 const LoginPage = require ('./page-model/Login.page')
 
