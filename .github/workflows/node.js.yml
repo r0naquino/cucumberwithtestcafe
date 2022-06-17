@@ -27,4 +27,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: npx gherkin-testcafe chrome tests/Login.steps.js tests/Login.feature
+    - run: npx gherkin-testcafe chrome:headless tests/Login.steps.js tests/Login.feature
